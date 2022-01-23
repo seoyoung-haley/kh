@@ -11,6 +11,7 @@ public class TestEmp {
 		//메소드호출
 		emp.printEmployee();
 		
+		
 	}
 
 }
