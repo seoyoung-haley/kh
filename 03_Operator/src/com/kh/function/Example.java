@@ -20,7 +20,7 @@ public class Example {
 		
 		String pass = (z >= 120 && a >= 60) ? "합격" : "불합격";
 		System.out.printf("%s 입니다.%n%n" , pass);
-		sc.nextLine();
+	
 		
 		
 	
