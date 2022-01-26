@@ -26,13 +26,10 @@ public class SwitchTest1 {
 		System.out.printf("메뉴 번호를 선택하세요. ==> ");
 		int choice =sc.nextInt();
 		
-		System.out.printf("물 사용량을 선택하세요. ==> ");
-		int wused =sc.nextInt();
 
 //		결과값 출력
 		
 		
-		System.out.println("----------<<수도세>>-----------");
 
 		String choiceName = " ";
 		int price = 0;
@@ -54,12 +51,17 @@ public class SwitchTest1 {
 			break;
 			default :
 				System.out.println("메뉴번호는 1,2,3만 가능합니다.");
+				return;
 		}
+		
+		System.out.printf("물 사용량을 선택하세요. ==> ");
+		int wused =sc.nextInt();
 		
 		int usedpay = price * wused;
 		int waterpay = usedpay / 20;
 		
 		
+		System.out.println("----------<<수도세>>-----------");
 		System.out.printf("선택메뉴번호 : %s를 선택하셨습니다.%n" , choiceName); 
 		System.out.printf("사용요금 : %d%n" , usedpay); 
 		System.out.printf("수도세 : %d%n" , waterpay);
