@@ -64,10 +64,8 @@ public class Test1 {
 			j = num2;
 			k = num1;
 		}
-//		1 5 = 9
-		
-		
-			while (true) {		
+
+		while (true) {		
 					
 				if ( k % 2 != 0) {				
 				total += k ; // -> sum = sum * i			
@@ -76,7 +74,6 @@ public class Test1 {
 					if(j > k)
 					break;	
 				
-			}	
-				System.out.printf("%d부터 %d까지의 홀수의 합은 %d이다." , num1 , num2 , total);
+		}System.out.printf("%d부터 %d까지의 홀수의 합은 %d이다." , num1 , num2 , total);
 	}
-	}
+}
