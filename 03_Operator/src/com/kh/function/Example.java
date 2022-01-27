@@ -71,7 +71,7 @@ public class Example {
 		
 		System.out.println("정수를 입력하세요 :");
 		int d = sc.nextInt();
-		String u = sc.nextLine();
+		String u;
 		
 		u = d % 2 == 0 ? "짝수다" : "홀수다";
 		System.out.println(u);
